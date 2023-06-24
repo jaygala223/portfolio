@@ -54,12 +54,9 @@ st.write(news_dict)
 st.header("publications")
 st.divider()
 st.write("**Identifying Suspicious Fishing Activity based on AIS Disabling Events**")
-st.caption("by ***Anmaya Agarwal, Jay Gala and others***")
-if st.button("Preprint", key="pdf1a"):
-    webbrowser.open("https://drive.google.com/file/d/1Z56zgWp5y52GFK7uuOM7J89sp3S5Pqng/view?usp=drive_link")
+st.caption("by ***Anmaya Agarwal, Jay Gala and others.*** [Preprint](https://drive.google.com/file/d/1Z56zgWp5y52GFK7uuOM7J89sp3S5Pqng/view?usp=drive_link)")
+
 st.divider()
 st.write("**A Review on Detecting Suspicious Fishing Activity.pdf**")
-st.caption("by ***Anmaya Agarwal, Jay Gala and others***")
-if st.button("PDF", key="pdf1"):
-    webbrowser.open("https://drive.google.com/file/d/1Z56zgWp5y52GFK7uuOM7J89sp3S5Pqng/view?usp=drive_link")
+st.caption("by ***Anmaya Agarwal, Jay Gala and others.*** [PDF](https://drive.google.com/file/d/1Z56zgWp5y52GFK7uuOM7J89sp3S5Pqng/view?usp=drive_link)")
 st.divider()
